@@ -1,33 +1,13 @@
-.calculator {
-  width: 250px;
-  margin: 0 auto;
-  border: 1px solid #ccc;
-  padding: 10px;
-  text-align: center;
-  font-size: 16px;
-}
-
-.calculator form {
-  margin: 0;
-  padding: 0;
-}
-
-.calculator input[type="text"] {
-  width: 100%;
-  margin-bottom: 10px;
-  padding: 5px;
-  border: 1px solid #ccc;
-  text-align: right;
-  font-size: 20px;
-}
-
 .calculator input[type="button"] {
   width: 50px;
   height: 50px;
   margin: 5px;
-  border: 1px solid #ccc;
+  border: none;
+  border-radius: 5px;
   font-size: 20px;
   cursor: pointer;
+  background-color: #fff;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 .calculator input[type="button"]:hover {
@@ -36,4 +16,5 @@
 
 .calculator input[type="button"]:active {
   background-color: #ddd;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
 }
